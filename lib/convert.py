@@ -5,7 +5,10 @@ Convert the format of input file to output file.
 It infers the input and output file types from their extension:
   py, csv, json
 
-example: convert.py --in input.csv --out output.json
+Please run in an environment set for Python 3.7, and navigate to this module in the lib directory.
+example:
+    convert.py --in "C:\\Users\\username\\Downloads\\converter\\tests\\files_input\\file00.py"
+    --out "C:\\Users\\username\\Downloads\\converter\\temp\\files_ouput\\file00.csv"
 """
 import os
 import io
