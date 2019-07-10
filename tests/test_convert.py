@@ -99,7 +99,7 @@ class TestConvert:
 
 
     def test_get_converter(self, con_in, dir_input):
-        for file, converter_class in iter(self.CONVERTER_MAP.items()):
+        for file, converter_class in self.CONVERTER_MAP.items():
             data_path_input = os.path.join(dir_input, file)
             assert con_in.get_converter(data_path_input) == converter_class
 
